@@ -1,6 +1,6 @@
-# UmbrellaAngWorkspace
+# UmbrellaWorkspace
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.26.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
 
 ## Development server
 
@@ -53,6 +53,27 @@ ng e2e
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+
+## More
+```bash
+ng new umbrella-workspace --no-create-application 
+```
+
+```bash
+ng generate application profile-card
+```
+
+```bash
+ng serve profile-card
+```
+
+```bash
+cd projects
+cd profile-card
+ng serve
+```
+
 
 ## Additional Resources
 

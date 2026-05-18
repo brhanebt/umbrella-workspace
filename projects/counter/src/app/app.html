@@ -1,0 +1,17 @@
+<div class="counter-container">
+  <h1>Counter: {{ counter() }}</h1>
+  <button (click)="increment()">Increment</button>
+  <button (click)="decrement()">Decrement</button>
+
+  <div>
+  @if(counter()>0){
+    <p [ngClass]="'positive'">Counter is positive.</p>
+  }
+  @else if(counter()<0){
+    <p [ngClass]="'negative'">Counter is negative.</p>
+  }
+  @else{
+    <p [ngClass]="'neutral'">Counter is neutral.</p>
+  }
+  </div>
+</div>

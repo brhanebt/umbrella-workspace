@@ -8,6 +8,7 @@
 
 # Node
 /node_modules
+/node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -29,6 +30,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
+/.angular/
 /.angular/cache
 .sass-cache/
 /connect.lock
@@ -40,3 +42,11 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+.env
+.env.local
+
+
+# Local Angular Cache (Do NOT commit - speeds up local builds)
+
